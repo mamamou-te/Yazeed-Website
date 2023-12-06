@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SignUp Page</title>
+</head>
+<style>
+     body {
+        background-image: url(Background.gif);
+        background-repeat: no-repeat;
+         background-size:cover;
+     }
+     
+
+     h1 {
+        font-size: xx-large;
+        font-family: 'Courier New', Courier, monospace;
+        color :black;
+        background: green;
+        text-align: center;
+     }
+</style>
+<body>
+
+<h1>Welcome To This Page</h1>
+<form action = "xpath.html" method ="get">
+  <fieldset>
+    <legend>Contact Details</legend>
+
+    <input type="text" placeholder="First name" id="firstname" name="firstname"><br /><br />
+    <input type="text" placeholder="Last name" id="lastname" name="lastname"><br /><br />
+    <input type="text" placeholder="Email" id="email" name="email"><br /><br />
+
+    <input type="submit" id="submit" value="Submit" onclick="alert('Welcome ' + document.getElementById('firstname').value + '!!')">
+  </fieldset>
+</form>
+  
+<script
+src = "scripts2.js"></script>
+</script>
+
+</body>
+</html> 
