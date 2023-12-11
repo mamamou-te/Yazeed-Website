@@ -1,1 +1,0 @@
-alert ("This alert is from JS file !!!")

@@ -1,1 +1,0 @@
-alert("This page only contains a GIF Background, click OK to proceed")

@@ -1,44 +1,126 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-#red-box {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    display:grid;
-}
-
-#green-box {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    display: inline-block;
-}
-
-#blue-box {
-    width: 404px;
-    height: 404px;
-    background-color: blue;
-    display: inline-block;
-}
-
-#yellow-box {
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-    display: inline-block;
-}
-
-#text 
-{
-    background-color: rgb(96, 240, 214);
-    width: 100px;
-    height: 100px;
+h1 {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
+
+#red-square, #blue-square, #green-square, #yellow-square, #purple-square {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#red-square {
+    background: red;
+    transition-delay: 3s;
+    position: relative; /* This is important for positioning the child <a> tag */
+
+}
+
+#blue-square {
+    background: blue;
+    position: relative; /* This is important for positioning the child <a> tag */
+}
+
+#green-square {
+    background: green;
+    position: relative; /* This is important for positioning the child <a> tag */
+}
+
+#yellow-square {
+    background: yellow;
+    transition-delay: 15s;
+    position: relative; /* This is important for positioning the child <a> tag */
+}
+
+#purple-square {
+    background: purple;
+    position: relative; /* This is important for positioning the child <a> tag */
+}
+
+
+#red-square-link {
+    display: block; /* Makes the <a> tag a block element */
+    width: 200px; /* Fill the entire width of the parent <div> */
+    height: 200px; /* Fill the entire height of the parent <div> */
+    transition-delay: 15s;
+    
+}
+
+
+#blue-square-link {
+    display: block; /* Makes the <a> tag a block element */
+    width: 100%; /* Fill the entire width of the parent <div> */
+    height: 100%; /* Fill the entire height of the parent <div> */
+}
+
+
+#yellow-square-link {
+    display: block; /* Makes the <a> tag a block element */
+    width: 200px; /* Fill the entire width of the parent <div> */
+    height: 200px; /* Fill the entire height of the parent <div> */
+}
+
+
+#green-square-link {
+    display: block; /* Makes the <a> tag a block element */
+    width: 200px;/* Fill the entire width of the parent <div> */
+    height: 200px; /* Fill the entire height of the parent <div> */
+}
+
+
+
+#purple-square-link {
+    display: block; /* Makes the <a> tag a block element */
+    width: 200px;/* Fill the entire width of the parent <div> */
+    height: 200px; /* Fill the entire height of the parent <div> */
+}
+
+
+.dropdown {
+    position: center;
+    display: inline-block;
+    align-items: center;
+  }
+  
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: center;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+  .dropdown {
+
+    margin-left: 50%;
+  }
